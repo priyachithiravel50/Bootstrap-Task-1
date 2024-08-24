@@ -2,10 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Bootstrap Task-1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <h2>Bootstrap</h2>
+        <nav class="navbar navbar-expand-lg p-4 text-uppercase text-white fixed-top">
+
+            <div class="container">
+
+                <a class="navbar-brand text-white fs-3 fw-bold" href= "index.html">start bootstrap</a>
+            
+                <div class="collapse navbar-collapse" id="mynav">
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item fw-bold">
+                            <a href="#portfolio" class="nav-link text-white py-3 px-0 px-lg-3 " id="hover">portfolio</a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#about" class="nav-link text-white py-3 px-0 px-lg-3 "id="hover" >about</a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#contact" class="nav-link  text-white py-3 px-0 px-lg-3 " id="hover">contact</a>
+                        </li>
+                    </ul>
+                    </div>
+            </div>
+            </nav>
+            <header class="top text-center text-white mt-5 pb-5 pt-5 " style="background-color: rgb(26,188,156);">
+             <div  class="container mt-5 align-items-center">
+                <img src="all images/avataaars.svg" alt="avataaars" class="pt-5" height="300px" width="300px">
+                <h1 class="start fw-bold mt-5 text-uppercase">START BOOTSTRAP</h1>
+
+                <div class="line d-flex justify-content-center mt-5">
+                <span class="line1 bg-light mt-3 mx-3" style="height: 3px; width: 130px;"></span>
+                <i class="fa-solid fa-star fs-3 fw-bold" style="color: #ffffff;"></i>
+                <span class="line1 bg-light mt-3 mx-3" style="height: 3px; width: 130px;"></span>
+                </div>
+                <p class= "para text-light pt-3 pb-3  mt-2" >Graphic Artist-Web Designer-Illustrator</p>
+             </div>
+            </header>
+                    <section class="page section">
+                    <div class="port text-center mt-5 pt-5">
+                        <h1 class="folio text-uppercase fw-bold">Portfolio</h1>
+                
+                        <div class="center d-flex mt-3 pt-2 justify-content-center">
+                            <span class="line2 mt-3 mx-3" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
+                            <i class="fa-solid fa-star fw-bold mx-3 fs-2" style="color: #2c3e50;"></i>
+                            <span class="line2 mt-3 mx-3" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
+                        </div>
+                    </div>
+                    <div class="image row mt-4 justify-content-center d-flex">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                             <img class="rounded-2 w-100 h-100" src="all images/cabin.png" alt="cabin">
+                             <div id="cabin" data-bs-toggle="img" data-bs-target="#cab">
+                              
+                             </div>
+                        </div>
+                    </div>
+                    </section>
+
+
+   
 </body>
 </html>
