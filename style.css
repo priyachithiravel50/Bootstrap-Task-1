@@ -44,7 +44,6 @@ nav{
 #boxes:hover #cabin{
     opacity: 0.9;
     cursor: pointer;
-
 }
 .lines{
     font-size: 50px;
@@ -60,9 +59,15 @@ nav{
 .label{
     font-size: 25px;
 }
-
-
-
+.loc{
+    line-height: 70px;
+}
+.around{
+    word-spacing: 2px;
+}
+.foot{
+    background-color: rgb(44,62,80);
+}
 
 
 
