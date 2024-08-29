@@ -10,244 +10,508 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg p-4 text-uppercase text-white fixed-top">
+    <nav class="navbar navbar-expand-lg p-4 text-uppercase text-white fixed-top">
 
-            <div class="container">
+        <div class="container">
 
-                <a class="navbar-brand text-white fs-3 fw-bold" href= "index.html">start bootstrap</a>
-            
-                <div class="collapse navbar-collapse" id="mynav">
-                    <ul class="navbar-nav ms-auto">
+            <a class="navbar-brand text-white fs-3 fw-bold" href= "index.html">start bootstrap</a>
 
-                        <li class="nav-item fw-bold">
-                            <a href="#portfolio" class="nav-link text-white py-3 px-0 px-lg-3 " id="hover">portfolio</a>
-                        </li>
-                        <li class="nav-item fw-bold">
-                            <a href="#about" class="nav-link text-white py-3 px-0 px-lg-3 "id="hover" >about</a>
-                        </li>
-                        <li class="nav-item fw-bold">
-                            <a href="#contact" class="nav-link  text-white py-3 px-0 px-lg-3 " id="hover">contact</a>
-                        </li>
-                    </ul>
-                    </div>
+            <div class="collapse navbar-collapse" id="mynav">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item fw-bold">
+                    <a class="nav-link text-white py-3 px-0 px-lg-3 rounded active" id="hover" href="#portfolio" >portfolio</a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a class="nav-link text-white py-3 px-0 px-lg-3 rounded active "id="hover"  href="#about" >about</a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a  class="nav-link text-white py-3 px-0 px-lg-3 rounded active" id="hover" href="#contact">contact</a>
+                </li>
+            </ul>
             </div>
-            </nav>
-            <header class="top text-center text-white mt-5 pb-5 pt-5 " style="background-color: rgb(26,188,156);">
-             <div  class="container mt-5 align-items-center">
-                <img src="all images/avataaars.svg" alt="avataaars" class="pt-5" height="300px" width="300px">
-                <h1 class="start fw-bold mt-5 text-uppercase">START BOOTSTRAP</h1>
 
-                <div class="line d-flex justify-content-center mt-5">
-                <span class="line1 bg-light mt-3 mx-3" style="height: 3px; width: 130px;"></span>
-                <i class="fa-solid fa-star fs-3 fw-bold" style="color: #ffffff;"></i>
-                <span class="line1 bg-light mt-3 mx-3" style="height: 3px; width: 130px;"></span>
-                </div>
-                <p class= "para text-light pt-3 pb-3  mt-2" >Graphic Artist-Web Designer-Illustrator</p>
-             </div>
-            </header>
-         
-                <section class="page section">
+    </div>
+
+    </nav>
+
+    <header class="top text-white text-center mt-5 pt-5 pb-5" style="background-color: #1abc9c;">
+        <div class="container mt-5 align-items-center">
+        <img class="mt-5" src="all images/avataaars.svg" alt="avataaars" style="width: 250px; height: 250px;">
+        <h1 class="boot text-uppercase fw-bold mt-5">Start Bootstrap</h1>
+
+
+              <div class="star d-flex justify-content-center mt-3">
+                <span class="line1 mt-3 mx-3 bg-light" style="width: 110px; height: 4px;"></span>
+                <i class="fa-solid fa-star fw-bold fs-2"></i>
+                <span class="line1 mt-3 ms-3 bg-light" style="width: 110px; height: 4px;"></span>
+              </div>
+
+        <p class="text-light pt-3 pb-3 fs-5 mt-2">Graphic Artist - Web Desinger - Illustrator</p>
+    </div>
+    </header>
+
     
-                <div class="port text-center mt-5 pt-5">
-                    <h1 class="folio text-uppercase fw-bold">portfolio</h1>
+    <article id="portfolio" class="pt-3">
+    <section class="page section">
+
+    <div class="container text-center mt-5 pt-5">
+        <h1 class="folio text-uppercase fw-bold">Portfolio</h1>
+
+        <div class="star d-flex justify-content-center mt-3 pt-2">
+            <span class="line1 mt-3 mx-" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
+            <i class="fa-solid fa-star fw-bold mx-3 fs-2" style="color: #2c3e50;"></i>
+            <span class="line1 mt-3 ms-" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
+        </div>
     
-                    <div class="center d-flex justify-content-center mt-3 pt-2">
-                        <span class="line2 mt-3 mx-" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
-                        <i class="fa-solid fa-star fw-bold mx-3 fs-2" style="color: #2c3e50;"></i>
-                        <span class="line2 mt-3 ms-" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
-                    </div>
-                
-    
-                    
-                    <div class="image row justify-content-center d-flex mt-4 p-1">
-    
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div id="boxes">
-                                 <img class="rounded-3 w-100 h-100" src="all images/cabin.png" alt="CABIN">
-                                 <div id="cabin" data-bs-toggle="modal" data-bs-target="#bin">
-                                    <div id="cab"><i class='fa-solid fa-plus text-light mt-lg-5 pt-5 text-center'></i></div>
-                                 </div>
-                            </div>
-                        </div>
-    
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div id="boxes">
-                                <img class="rounded-3 w-100 h-100" src="all images/cake.png" alt="CAKE">
-                                <div  id="cabin" data-bs-toggle="modal" data-bs-target="#cake">
-                                    <div id="cab"><i class="fa-solid fa-plus text-light mt-lg-5 pt-5"></i></div>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div id="boxes">
-                                <img class="rounded-3 w-100 h-100" src="all images/circus.png" alt="CIRCUS" >
-                                <div id="cabin" data-bs-toggle="modal" data-bs-target="#circus">
-                                    <div id="cab"><i class="fa-solid fa-plus text-light mt-lg-5 pt-5"></i></div>
-                                </div>
-                            </div>    
-                        </div>
-    
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div id="boxes">
-                                <img class="rounded-3 w-100 h-100" src="all images/game.png" alt="GAME">
-                                <div id="cabin" data-bs-toggle="modal" data-bs-target="#game">
-                                    <div id="cab"><i class="fa-solid fa-plus text-light mt-lg-5 pt-5"></i></div>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div id="boxes">
-                                <img class="rounded-3 w-100 h-100" src="all images/safe.png" alt="SAFE">
-                                <div id="cabin" data-bs-toggle="modal" data-bs-target="#safe">
-                                    <div id="cab"><i class="fa-solid fa-plus text-light mt-lg-5 pt-5"></i></div>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div id="boxes">
-                                <img class="rounded-3 w-100 h-100" src="all images/submarine.png" alt="SUBMARINE">
-                                <div id="cabin" data-bs-toggle="modal" data-bs-target="#submarine">
-                                    <div id="cab"><i  class="fa-solid fa-plus text-light mt-lg-5 pt-5"></i></div>
-                                </div>
-                            </div>
-                        </div>
-    
-                    </div>
-            </section>
-             
-                <section class="about text-white  text-center mt-5 pt-5 mb-5 pb-5" style="background-color: #1abc9c;">
-                    
-                    <div class="lines">
-                        <h1 class="about text-uppercase fw-bold mt-5">about</h1>
-            
-                        <div class="d-flex justify-content-center mt-2">
-                            <span class="line1 bg-light mt-3 mx-3" style="width: 110px; height: 4px;"></span>
-                            <i class="fa-solid fa-star fw-bold fs-2"></i>
-                            <span class="line1 bg-light mt-3 ms-3" style="width: 110px; height: 4px;"></span>
-                        </div>
-            
-                        <div class="row mt-3 d-flex">
-                            <div class="col-lg-4 ms-auto">
-                                <p class="para text-start ms-2 mt-2">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
-                         </div>
-                         <div class="col-lg-4 me-auto">
-                            <p class="para text-start mx-3 mt-2">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+
+        
+        <div class="image row justify-content-center d-flex mt-4 p-1">
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div id="boxcontainer">
+                     <img class="rounded-3 w-100 h-100" src="all images/cabin.png" alt="cabin">
+                     <div id="cabin" data-bs-toggle="modal" data-bs-target="#bin">
+                        <div id="cab"><i class='fa-solid fa-plus text-light mt-lg-5 pt-5'></i></div>
                      </div>
-                     <div class="text-center mt-4 mb-5">
-                        <a href="#" class="btn btn-xl btn-outline-light pt-2 pb-3 ps-3 pe-3">
-                            <span><i class="fa-solid fa-download fs-4 mt-2"></i></span>
-                            <span class="free fs-5 ps-1">Free Download!</span>
-                        </a>
-                    </div>
-            
-            </div>
-        </section>
-        <section class="contact">
-    
-            <div class="con text-center mt-5 pt-5">
-                <h1 class="tact text-uppercase fw-bold">contact me</h1>
-
-                <div class="center d-flex justify-content-center mt-3 pt-2">
-                    <span class="line2 mt-3" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
-                    <i class="fa-solid fa-star fw-bold mx-3 fs-2" style="color: #2c3e50;"></i>
-                    <span class="line2 mt-3" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
                 </div>
-            
-                        <div class="container col-lg-6">
-                            <form>
-                                <div class="form-floating p-4 mt-2">
-                                    <input type="text" id="name" placeholder="Full Name" class="form-control  border-2 rounded-0 border-start-0 border-end-0 border-top-0" style="box-shadow: none;">
-                                    <label id="bel" for="name" class="label  mx-3" style="color: #2c3e50;">Full name</label>
-                                </div>
-                                <div class="form-floating p-4 mt-3">
-                                    <input type="text" id="name" placeholder="Full Name" class="form-control border-2 rounded-0 border-start-0 border-end-0 border-top-0" style="box-shadow: none;">
-                                    <label id="bel" for="name" class="label  mx-3" style="color: #2c3e50;">Email address</label>
-                                </div>
-                                <div class="form-floating p-4 mt-3">
-                                    <input type="text" id="name" placeholder="Full Name" class="form-control border-2 rounded-0 border-start-0 border-end-0 border-top-0" style="box-shadow: none;">
-                                    <label id="bel" for="name" class="label  mx-3" style="color: #2c3e50;">Phone number</label>
-                                </div>
-                                <div class="form-floating p-4 mt-3">
-                                    <input type="text" id="name" placeholder="Full Name" class="form-control border-2 rounded-0 border-start-0 border-end-0 border-top-0" style="box-shadow: none;">
-                                    <label id="bel" for="name" class="label  mx-3" style="color: #2c3e50;">Message</label>
-                                </div>
-                            </form>
-                        </div>
             </div>
-        </section>
-                        <footer class="foot text-center text-light mt-5 pb-5">
-                            <div class="container-fluid ">
-                                 <div class="row p-0">
-                                
-                                    <div class="col-lg-4 col-sm-12 mt-5 pt-5">
-                                    <h4 class="text-uppercase fw-bold">location</h4>
-                                    <p class=" john mt-4 fs-5">2215 John Daniel Drive
-                                             <br> 
-                                     Clark, MO 65243</p>
-                                     </div>
-                   
-                        <div class="col-lg-3 col-sm-5 mt-5 pt-5">
-                            <h4 class="around text-uppercase fw-bold">around the web</h4>
-                            
-                            <a href="#" class="btn btn-outline-light rounded-circle border-2 mx-1 mt-2">
-                            <i class="fa-brands fa-facebook-f fs-4 mt-2" ></i>
-                            </a> 
-                            <a href="#" class="btn btn-outline-light rounded-circle border-2 mx-1 mt-2">
-                                <i class="fa-brands fa-twitter fs-4 mt-2" ></i>
-                            </a> 
-                            <a href="#" class="btn btn-outline-light rounded-circle border-2 mx-1 mt-2">
-                                <i class="fa-brands fa-linkedin-in fs-4 mt-2" ></i>
-                            </a>
-                            <a href="#" class="btn btn-outline-light rounded-circle border-2 mx-1 mt-2">
-                                <i class="fa-solid fa-basketball fs-4 mt-2" ></i>
-                            </a>
-                        </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div id="boxcontainer">
+                    <img class="rounded-3 w-100 h-100" src="all images/cake.png" alt="cake">
+                    <div  id="cabin" data-bs-toggle="modal" data-bs-target="#cake">
+                        <div id="cab"><i class="fa-solid fa-plus text-light mt-lg-5 pt-5"></i></div>
                     </div>
-                </div>  
-                <div class="col-lg-3 col-sm-5 mt-5 pt-5">
-                    <h4 class="text-uppercase fw-bold">About Freelancer</h4>
-                    <p class=" abt mt-4 fs-5">Freelance is a free to use,MIT licensed Bootstrap theme created by</p>
-                </div>     
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div id="boxcontainer">
+                    <img class="rounded-3 w-100 h-100" src="all images/circus.png" alt="circus" >
+                    <div id="cabin" data-bs-toggle="modal" data-bs-target="#circus">
+                        <div id="cab"><i class="fa-solid fa-plus text-light mt-lg-5 pt-5"></i></div>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div id="boxcontainer">
+                    <img class="rounded-3 w-100 h-100" src="all images/game.png" alt="game">
+                    <div id="cabin" data-bs-toggle="modal" data-bs-target="#game">
+                        <div id="cab"><i class="fa-solid fa-plus text-light mt-lg-5 pt-5"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div id="boxcontainer">
+                    <img class="rounded-3 w-100 h-100" src="all images/safe.png" alt="safe">
+                    <div id="cabin" data-bs-toggle="modal" data-bs-target="#safe">
+                        <div id="cab"><i class="fa-solid fa-plus text-light mt-lg-5 pt-5"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div id="boxcontainer">
+                    <img class="rounded-3 w-100 h-100" src="all images/submarine.png" alt="submarine">
+                    <div id="cabin" data-bs-toggle="modal" data-bs-target="#submarine">
+                        <div id="cab"><i  class="fa-solid fa-plus text-light mt-lg-5 pt-5"></i></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</section>
+</article>
+
+<article id="about" class="pt-3 mt-3">
+<section class="abt text-white  text-center mt-5 pt-5 mb-5 pb-5" style="background-color: #1abc9c;">
+    
+    <div class="container">
+        <h1 class="about text-uppercase fw-bold mt-5">About</h1>
+
+        <div class="d-flex justify-content-center mt-2">
+            <span class="line1 bg-light mt-3 mx-3" style="width: 110px; height: 4px;"></span>
+            <i class="fa-solid fa-star fw-bold fs-2"></i>
+            <span class="line1 bg-light mt-3 ms-3" style="width: 110px; height: 4px;"></span>
+        </div>
+
+        <div class="row mt-3 d-flex">
+            <div class="col-lg-4 ms-auto">
+                <p class="para text-start ms-3 mt-2">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+            </div>
+
+            <div class="col-lg-4 me-auto">
+                <p class="para text-start mx-3 mt-2">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+            </div>
+        </div>
+            
+            <div class="text-center mt-4 mb-5">
+                <a href="#" class="btn btn-xl btn-outline-light pt-2 pb-3 ps-3 pe-3">
+                    <span><i class="fa-solid fa-download fs-4 mt-2"></i></span>
+                    <span class="free fs-5 ps-1">Free Download!</span>
+                </a>
+            </div>
+    
+    </div>
+</section>
+</article>
+
+<article id="contact" class="pt-5">
+<section>
+    <div class="tact container text-center pt-2">
+        <h1 id="contactme" class="me fw-bold mt-5 text-uppercase  ">Contact me</h1>
+
+        <div class="d-flex justify-content-center mt-3">
+        <span class="line1 mt-3" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
+        <i class="fa-solid fa-star mx-3 fs-2 fw-bold" style="color: #2c3e50;"></i>
+        <span class="line1 mt-3" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
+        </div>
+    </div>
+
+    <article id="contact" class="pt-5">
+        <div class="container col-lg-7">
+            <form>
+                <div class="form-floating p-4 mt-3">
+                    <input type="text" id="name" placeholder="Full Name" class="form-control border-2 rounded-0 border-start-0 border-end-0 border-top-0" style="box-shadow: none;"  required>
+                    <label id="number" for="name" class="form-label mx-3 fs-3" style="color: #2c3e50;">Full name</label>
+                </div>
+
+                <div class="form-floating p-4 mt-3">
+                    <input type="text" id="name" placeholder="Email address" class="form-control  border-2 rounded-0 border-start-0 border-end-0 border-top-0" style="box-shadow: none;"  required>
+                    <label id="number" for="email" class="form-label  mx-3 fs-3" style="color: #2c3e50;">Email address</label>
+                </div>
+
+                <div class="form-floating p-4 mt-3">
+                    <input type="text" id="name" placeholder="Phone number" class="form-control rounded-0 border-2 border-end-0 border-start-0 border-top-0" style="box-shadow: none;" required>
+                    <label id="number" for="number" class="form-label  mx-3 fs-3" style="color: #2c3e50;">Phone number</label>
+                </div>
+
+                <div class="form-floating pt-5 ps-4 mt-3 mb-5">
+                    <input type="text" id="name" placeholder="Message" class="pb-5 mt-4 form-control rounded-0 border-2 border-end-0 border-start-0 border-top-0"  style="box-shadow: none;" required>
+                    <label id="number" for="message" class="form-label  mx-3 fs-3" style="color: #2c3e50;">Message</label>
+                </div>
+
+                <p class="btn disabled p-3 text-white fs-5 mx-4 ps-4 pe-4 pt-3 pb-3" style="background-color: #1abc9c;">Send</p>
+    
+            </form>
+            </div>
+
+</section>
+</article>
+
+
+<footer class="foot text-center text-light mt-5 pb-5">
+    <div class="container-fluid ">
+        <div class="row p-0">
+
+            <div class="col-lg-4 col-sm-12 mt-5 pt-5">
+                <h4 class="text-uppercase fw-bold">Location</h4>
+                <p class="mt-4 fs-5">2215 John Daniel Drive
+                    <br> 
+                    Clark, MO 65243</p>
+            </div>
+
+            <div class="col-lg-4 col-sm-12 mt-5 pt-5">
+                <h4 class="text-uppercase fw-bold">Around the web</h4>
+                
+                <a href="#" class="btn btn-outline-light rounded-circle border-2 mx-1 mt-3">
+                    <i class="fa-brands fa-facebook-f fs-4 mt-2"></i>
+                </a>
+
+                <a href="#" class="btn btn-outline-light rounded-circle border-2 mx-1 mt-3">
+                    <i class="fa-brands fa-twitter fs-4 mt-2"></i>
+                </a>
+
+                <a href="#" class="btn btn-outline-light rounded-circle border-2 mx-1 mt-3">
+                    <i class="fa-brands fa-linkedin fs-4 mt-2"></i>
+                </a>
+
+                <a href="#" class="btn btn-outline-light rounded-circle border-2 mx-1 mt-3">
+                    <i class="fa-brands fa-dribbble fs-4 mt-2"></i>
+                </a>
+            
+            </div>
+
+            <div class="col-lg-4 col-sm-12 mt-5 pt-5">
+                <h4 class="text-uppercase fw-bold">About freelancer</h4>
+
+                <p class="mt-4 fs-5">Freelance is a free to use, MIT licensed Bootstrap theme created by 
+                <a id="boot" href="#">Start Bootstrap</a> .</p>
+            </div>
+        </div>
+    </div>
 </footer>
 
-<div class="Copyright text-center text-light bg-dark py-4">
+<div class="last text-center text-light bg-dark py-4">
     <div class="container">
-        <small class=" copy pt-3">Copyright &copy Your Website 2023</small>
+        <small class="pt-3">Copyright &copy Your Website 2023</small>
     </div>
 </div>
 
 
-                             
+
+        <!-- Modal -->
+        <div class="modal modal-lg" id="bin">
+            <div  class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- Modal Header  -->
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                     <!-- Modal Body  -->
+                    <div class="modal-body text-center">
+                        <h1 class=" text-center text-uppercase fw-bold" style="color: #2c3e50;">log cabin</h1>
+    
+                        <div class="top d-flex justify-content-center mt-2 pt-2">
+                            <span class="line1 mt-3 mx-" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
+                            <i class="fa-solid fa-star fw-bold mx-3 fs-2" style="color: #2c3e50;"></i>
+                            <span class="line1 mt-3" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
+                        </div>
+                        <div class="container-expand-lg px-lg-5">
+                            <img src="all images/cabin.png" alt="cabin" class="img-fluid px-5 mt-3">
+                        </div>
+    
+                        <div class="container-expand-lg mx-lg px-lg-5 mt-5">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur qui maxime voluptate sequi aspernatur accusamus quidem, earum voluptatibus itaque at esse adipisci repellat nemo ea exercitationem perspiciatis in minima dicta?</p>
+                        </div>
+                    </div>
+    
+                     <!-- Modal Footer  -->
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="button" class="btn text-light" style="background-color: #1abc9c;" data-bs-dismiss="modal">X Close Window</button>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+
         
+
+        <!-- Modal -->
+        <div class="modal modal-lg" id="cake">
+            <div  class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- Modal Header  -->
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                     <!-- Modal Body  -->
+                    <div class="modal-body text-center">
+                        <h1 class=" text-center text-uppercase fw-bold" style="color: #2c3e50;">log cabin</h1>
+    
+                        <div class=" top d-flex justify-content-center mt-2 pt-2">
+                            <span class="line1 mt-3 mx-" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
+                            <i class="fa-solid fa-star fw-bold mx-3 fs-2" style="color: #2c3e50;"></i>
+                            <span class="line1 mt-3" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
+                        </div>
+                        <div class="container-expand-lg px-lg-5">
+                            <img src="all images/cake.png" alt="cake" class="img-fluid px-5 mt-3">
+                        </div>
+    
+                        <div class="container-expand-lg mx-lg px-lg-5 mt-5">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur qui maxime voluptate sequi aspernatur accusamus quidem, earum voluptatibus itaque at esse adipisci repellat nemo ea exercitationem perspiciatis in minima dicta?</p>
+                        </div>
+                    </div>
+    
+                     <!-- Modal Footer  -->
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="button" class="btn text-light" style="background-color: #1abc9c;" data-bs-dismiss="modal">X Close Window</button>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+
         
+
+        <!-- Modal -->
+        <div class="modal modal-lg" id="circus">
+            <div  class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- Modal Header  -->
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                     <!-- Modal Body  -->
+                    <div class="modal-body text-center">
+                        <h1 class=" text-center text-uppercase fw-bold" style="color: #2c3e50;">log cabin</h1>
+    
+                        <div class="d-flex justify-content-center mt-2 pt-2">
+                            <span class="line1 mt-3 mx-" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
+                            <i class="fa-solid fa-star fw-bold mx-3 fs-2" style="color: #2c3e50;"></i>
+                            <span class="line1 mt-3" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
+                        </div>
+                        <div class="container-expand-lg px-lg-5">
+                            <img src="all images/circus.png" alt="circus" class="img-fluid px-5 mt-3">
+                        </div>
+    
+                        <div class="container-expand-lg mx-lg px-lg-5 mt-5">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur qui maxime voluptate sequi aspernatur accusamus quidem, earum voluptatibus itaque at esse adipisci repellat nemo ea exercitationem perspiciatis in minima dicta?</p>
+                        </div>
+                    </div>
+    
+                     <!-- Modal Footer  -->
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="button" class="btn text-light" style="background-color: #1abc9c;" data-bs-dismiss="modal">X Close Window</button>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+
+
+
+         <!-- Modal -->
+         <div class="modal modal-lg" id="game">
+            <div  class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- Modal Header  -->
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                     <!-- Modal Body  -->
+                    <div class="modal-body text-center">
+                        <h1 class=" text-center text-uppercase fw-bold" style="color: #2c3e50;">log cabin</h1>
+    
+                        <div class="d-flex justify-content-center mt-2 pt-2">
+                            <span class="line1 mt-3 mx-" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
+                            <i class="fa-solid fa-star fw-bold mx-3 fs-2" style="color: #2c3e50;"></i>
+                            <span class="line1 mt-3" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
+                        </div>
+                        <div class="container-expand-lg px-lg-5">
+                            <img src="all images/game.png" alt="game" class="img-fluid px-5 mt-3">
+                        </div>
+    
+                        <div class="container-expand-lg mx-lg px-lg-5 mt-5">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur qui maxime voluptate sequi aspernatur accusamus quidem, earum voluptatibus itaque at esse adipisci repellat nemo ea exercitationem perspiciatis in minima dicta?</p>
+                        </div>
+                    </div>
+    
+                     <!-- Modal Footer  -->
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="button" class="btn text-light" style="background-color: #1abc9c;" data-bs-dismiss="modal">X Close Window</button>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+
+
+          <!-- Modal -->
+          <div class="modal modal-lg" id="safe">
+            <div  class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- Modal Header  -->
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                     <!-- Modal Body  -->
+                    <div class="modal-body text-center">
+                        <h1 class=" text-center text-uppercase fw-bold" style="color: #2c3e50;">log cabin</h1>
+    
+                        <div class="d-flex justify-content-center mt-2 pt-2">
+                            <span class="line1 mt-3 mx-" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
+                            <i class="fa-solid fa-star fw-bold mx-3 fs-2" style="color: #2c3e50;"></i>
+                            <span class="line1 mt-3" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
+                        </div>
+                        <div class="container-expand-lg px-lg-5">
+                            <img src="all images/safe.png" alt="safe" class="img-fluid px-5 mt-3">
+                        </div>
+    
+                        <div class="container-expand-lg mx-lg px-lg-5 mt-5">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur qui maxime voluptate sequi aspernatur accusamus quidem, earum voluptatibus itaque at esse adipisci repellat nemo ea exercitationem perspiciatis in minima dicta?</p>
+                        </div>
+                    </div>
+    
+                     <!-- Modal Footer  -->
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="button" class="btn text-light" style="background-color: #1abc9c;" data-bs-dismiss="modal">X Close Window</button>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+
+          <!-- Modal -->
+          <div class="modal modal-lg" id="submarine">
+            <div  class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- Modal Header  -->
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                     <!-- Modal Body  -->
+                    <div class="modal-body text-center">
+                        <h1 class=" text-center text-uppercase fw-bold" style="color: #2c3e50;">log cabin</h1>
+    
+                        <div class="d-flex justify-content-center mt-2 pt-2">
+                            <span class="line1 mt-3 mx-" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
+                            <i class="fa-solid fa-star fw-bold mx-3 fs-2" style="color: #2c3e50;"></i>
+                            <span class="line1 mt-3" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
+                        </div>
+                        <div class="container-expand-lg px-lg-5">
+                            <img src="all images/submarine.png" alt="submarine" class="img-fluid px-5 mt-3">
+                        </div>
+    
+                        <div class="container-expand-lg mx-lg px-lg-5 mt-5">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur qui maxime voluptate sequi aspernatur accusamus quidem, earum voluptatibus itaque at esse adipisci repellat nemo ea exercitationem perspiciatis in minima dicta?</p>
+                        </div>
+                    </div>
+    
+                     <!-- Modal Footer  -->
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="button" class="btn text-light" style="background-color: #1abc9c;" data-bs-dismiss="modal">X Close Window</button>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+
         
-           
-    
-            
-    
-    
-    
-    
-    
+
         
 
-
-
-
-
-
-
-
-
-                    
-
-
-
-
-
-           
 </body>
-</html>
+</html>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
