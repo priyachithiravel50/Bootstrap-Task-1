@@ -16,6 +16,15 @@ nav{
 .boot{
     font-size: 60px;
 }
+ .menu{
+    display: none;
+}
+.folio{
+    color: rgb(44,62,80);
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 45px;
+}
 .port{
     line-height: 2rem;
     color: #2c3e50;
