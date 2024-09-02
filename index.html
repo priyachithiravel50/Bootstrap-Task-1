@@ -11,14 +11,15 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg p-4 text-uppercase text-white fixed-top">
-
         <div class="container">
 
-            <a class="navbar-brand text-white fs-3 fw-bold" href= "index.html">Start bootstrap</a>
-
-            <div class="collapse navbar-collapse" id="nav">
+            <a class="navbar-brand fs-6 text-white fs-3 fw-bold " href= "index.html">Start bootstrap</a>
+            <button class="navbar-toggler rounded text-uppercase fs-5 fw-100 text-center text-white " type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                menu
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav ms-auto">
-
                 <li class="nav-item fw-bold">
                     <a class="nav-link text-white py-3 px-0 px-lg-3 rounded active" id="hover" href="#portfolio" >portfolio</a>
                 </li>
@@ -30,8 +31,8 @@
                 </li>
             </ul>
             </div>
-    </div>
-
+            </div>
+        </div>
     </nav>
 
     <header class="top text-white text-center mt-5 pt-5 pb-5" style="background-color: #1abc9c;">
@@ -57,7 +58,7 @@
     <div class="container text-center mt-5 pt-5">
         <h1 class="folio text-uppercase fw-bold">Portfolio</h1>
 
-        <div class="star d-flex justify-content-center mt-3 pt-2">
+        <div class="star1 d-flex justify-content-center mt-3 pt-2">
             <span class="line1 mt-3 mx-" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
             <i class="fa-solid fa-star fw-bold mx-3 fs-2" style="color: #2c3e50;"></i>
             <span class="line1 mt-3 ms-" style="height: 4px; width: 110px; background-color: #2c3e50;"></span>
@@ -69,7 +70,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4">
                 <div id="boxcontainer">
-                     <img class="rounded-3 w-100 h-100" src="all images/cabin.png" alt="cabin">
+                     <img class=" rounded-3 w-100 h-100" src="all images/cabin.png" alt="cabin">
                      <div id="cabin" data-bs-toggle="modal" data-bs-target="#bin">
                         <div id="cab"><i class='fa-solid fa-plus text-light mt-lg-5 pt-5'></i></div>
                      </div>
@@ -192,9 +193,7 @@
                 <div class="form-floating pt-5 ps-4 mt-3 mb-5">
                    
                     <label id="number" for="message" class="form-label  mx-3 fs-4" style="color: #2c3e50;">Message</label>
-                    <textarea class="form-control  rounded-0 border-2 border-end-0 border-start-0 border-top-0" id="message" type="text"
-
-                    placeholder="Message" style="box-shadow: none;" required></textarea>
+                    <textarea class="form-control  rounded-0 border-2 border-end-0 border-start-0 border-top-0" id="message" type="text"placeholder="Message" style="box-shadow: none;" required></textarea>
                     
                 </div>
 
@@ -210,18 +209,18 @@
     <div class="container-fluid ">
         <div class="row p-0">
 
-            <div class="col-lg-4 col-sm-12 mt-5 pt-5">
-                <h4 class="text-uppercase fw-bold">Location</h4>
+            <div class="test col-lg-4 col-sm-12 mt-5 pt-5">
+                <h4 class=" text-uppercase fw-bold">Location</h4>
                 <p class="mt-4 fs-5">2215 John Daniel Drive
                     <br> 
                     Clark, MO 65243</p>
             </div>
 
-            <div class="col-lg-4 col-sm-12 mt-5 pt-5">
-                <h4 class="text-uppercase fw-bold">Around the web</h4>
+            <div class="test1 col-lg-4 col-sm-12 mt-5 pt-5">
+                <h4 class="  text-uppercase fw-bold">Around the web</h4>
                 
                 <a href="#" class="btn btn-outline-light rounded-circle border-2 mx-1 mt-3">
-                    <i class="fa-brands fa-facebook-f fs-4 mt-2 pe-2 mt-2 me-"></i>
+                    <i class="fa-brands fa-facebook-f fs-4 mt-2 pe-2 mt-2 "></i>
                 </a>
 
                 <a href="#" class="btn btn-outline-light rounded-circle border-2 mx-1 mt-3">
@@ -238,8 +237,8 @@
             
             </div>
 
-            <div class="col-lg-4 col-sm-12 mt-5 pt-5">
-                <h4 class="text-uppercase fw-bold">About freelancer</h4>
+            <div class="test2 col-lg-4 col-sm-12 mt-5 pt-5">
+                <h4 class=" text-uppercase fw-bold">About freelancer</h4>
 
                 <p class="mt-4 fs-5">Freelance is a free to use, MIT licensed Bootstrap theme created by 
                 <a id="boot" href="#">Start Bootstrap</a> .</p>

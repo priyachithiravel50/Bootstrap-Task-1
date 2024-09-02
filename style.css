@@ -10,6 +10,12 @@ body{
 nav{
     background-color: #2C3E50;
 }
+.test1{
+    margin-left: -10px;
+}
+.test2{
+    margin-left: -100px;
+}
 #hover:hover{
     color: #1abc9c;
 }
@@ -38,6 +44,7 @@ nav{
     border-radius: 5px;
     top: 0;
     opacity: 0;
+    max-width: 25rem;
     width: 100%;
     height: 100%;
     background-color: #1abc9c;
@@ -58,11 +65,9 @@ nav{
 .para{
     font-size: 1.125rem;
 }
-
 .free{
     margin-top: 30px;
 }
-
 footer{
     background-color: #2C3E50;
 }
@@ -70,11 +75,9 @@ footer{
 #boot{
     color: #1abc9c;
 }
-
 #boot:hover{
     color: #08a082;
 }
-
 #hover:active{
     background-color: #1abc9c;
     color: white !important;
@@ -86,116 +89,74 @@ footer{
     color: #2c3e50;
     font-size: 47px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*{
-    margin: 0;
-    padding: 0;
-   
-}
-
-body{
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-nav{
-    background-color: rgb(44,62,80);
-}
-
-#hover:hover{
-    color:#1abc9c !important;
-}
-.start{
-    font-size: 60px;
-    letter-spacing: 1px;
-    line-height: 30px;
-}
-.para{
-    font-size: 25px;
-}
-
-#boxes{
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-#cabin{
-    position: absolute;
-    border-radius: 5px;
-    opacity: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    transition: 0.3s ease-in-out;
+.container .navbar-toggler{
     background-color: #1abc9c;
 }
-#cab{
-    font-size: 100px;
+@media (max-width: 320px) {
+    .top{
+        width: 400px;
+    }
+    .folio{
+        margin-left: 20%;
+    }
+    .star1{
+        margin-left: 20%;
+    }
+    #boxcontainer{
+        width: 370px;
+    }
+    #about{
+        width: 400px;
+    }
+   #contact{
+    width: 400px;
+   }
+   .foot{
+    width: 400px;
+   }
+   .last{
+    width: 400px;
+   }  
 }
-#boxes:hover #cabin{
-    opacity: 0.9;
-    cursor: pointer;
+@media (max-width: 768px) {
+    .test{
+        margin-top: -50px;
+    }
+    .test1{
+        margin-top: -50px;
+    }
+    .test2{
+        margin-top: -50px;
+    }
 }
-.lines{
-    font-size: 50px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-}
-.para{
-    font-size: 20px;
-}
-.tact{
-    font-size: 50px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.label{
-    font-size: 25px;
-}
-.loc{
-    line-height: 70px;
-}
-.around{
-    word-spacing: 2px;
-}
-.foot{
-    background-color: rgb(44,62,80);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
