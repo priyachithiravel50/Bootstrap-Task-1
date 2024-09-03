@@ -85,9 +85,15 @@ footer{
 #number{
     font-size: 1.5rem;
 }
+.about{
+    margin-left: 10px;
+}
+.para{
+    font-size: 20px;
+}
 #contactme{
     color: #2c3e50;
-    font-size: 47px;
+    font-size: 45px;
 }
 .container .navbar-toggler{
     background-color: #1abc9c;
@@ -96,24 +102,36 @@ footer{
     .top{
         width: 400px;
     }
+
     .folio{
         margin-left: 20%;
     }
+
     .star1{
         margin-left: 20%;
     }
+
     #boxcontainer{
         width: 370px;
     }
+
     #about{
         width: 400px;
     }
-   #contact{
-    width: 400px;
-   }
+
+    .me{
+        width: 300px;
+        margin-left: 30px;
+    }
+
+    .cont{
+        margin-left: 30px;
+    }
+    
    .foot{
     width: 400px;
    }
+
    .last{
     width: 400px;
    }  
@@ -121,14 +139,31 @@ footer{
 @media (max-width: 768px) {
     .test{
         margin-top: -50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+
     .test1{
         margin-top: -50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+
     .test2{
-        margin-top: -50px;
+        margin-top: -20px;
+        margin-left: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
+@media (max-width: 1024px) {
+    .test2{
+        margin-left: 5px;
+        
+    }
+    .lan{
+        margin-left: 20px;
+    }
+    
+}
+
 
 
 
