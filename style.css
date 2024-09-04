@@ -44,7 +44,7 @@ nav{
     border-radius: 5px;
     top: 0;
     opacity: 0;
-    max-width: 25rem;
+    max-width: 27rem;
     width: 100%;
     height: 100%;
     background-color: #1abc9c;
@@ -121,11 +121,11 @@ footer{
 
     .me{
         width: 300px;
-        margin-left: 30px;
+        margin-left: 40px;
     }
 
     .cont{
-        margin-left: 30px;
+        width: 380px;
     }
     
    .foot{
@@ -139,18 +139,15 @@ footer{
 @media (max-width: 768px) {
     .test{
         margin-top: -50px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .test1{
         margin-top: -50px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .test2{
         margin-top: -20px;
         margin-left: 5px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
 @media (max-width: 1024px) {
